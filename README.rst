@@ -77,8 +77,10 @@ sudo apt install -y php-pgsql
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
-### Скриншот Zabbweb:
-<img width="600" alt="auto" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/auto.png" />
+
+.. image:: auto.png
+   :width: 800
+   :alt: Hosts в Zabbiix
 ---
 
 
@@ -131,14 +133,20 @@ sudo systemctl status zabbix-agent
 # 5. Проверка логов агента для подтверждения работы
 sudo tail -n 30 /var/log/zabbix/zabbix_agentd.log
 
-### Скриншот Zabbix Web2:
-Скриншот интерфейса Zabbix Web  
-<img width="600" alt="zabbix-web2" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/zabbix-web.png" />
+- Лог агента:
 
-### Скриншот Zabbix Web:
-Скриншот web2  
-<img width="600" alt="webzabbix" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/webzabbix.png" />
+.. image:: bashlog.png
+   :width: 800
+   :alt: Лог Zabbix Agent
 
-### Скриншот bashlog-tail:
-Скриншот логов bash  
-<img width="600" alt="bashlog" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/bashlog.png" />
+- WEBZAB (zabbix-server):
+
+.. image:: zabbix-web.png
+   :width: 800
+   :alt: Latest Data zabbix-server
+
+- ZABWEB (host2):
+
+.. image:: zabbix-web.png
+   :width: 800
+   :alt: Latest Data host2

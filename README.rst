@@ -77,12 +77,8 @@ sudo apt install -y php-pgsql
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
-Скриншот auto
-.. image:: Screenshots/auto.png
-   :alt: auto
-   :align: center
-   :width: 600px
-
+### Скриншот Zabbweb:
+<img width="600" alt="auto" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/auto.png" />
 ---
 
 
@@ -135,20 +131,14 @@ sudo systemctl status zabbix-agent
 # 5. Проверка логов агента для подтверждения работы
 sudo tail -n 30 /var/log/zabbix/zabbix_agentd.log
 
-Скриншот интерфейса Zabbix Web
-.. image:: Screenshots/zabbix-web.png
-   :alt: zabbix-web
-   :align: center
-   :width: 600px
+### Скриншот Zabbix Web2:
+Скриншот интерфейса Zabbix Web  
+<img width="600" alt="zabbix-web2" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/zabbix-web.png" />
 
-Скриншот Latest Data
-.. image:: Screenshots/webzabbix.png
-   :alt: webzabbix
-   :align: center
-   :width: 600px
+### Скриншот Zabbix Web:
+Скриншот web2  
+<img width="600" alt="webzabbix" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/webzabbix.png" />
 
-Скриншот логов bash
-.. image:: Screenshots/bashlog.png
-   :alt: bashlog
-   :align: center
-   :width: 600px
+### Скриншот bashlog-tail:
+Скриншот логов bash  
+<img width="600" alt="bashlog" src="https://github.com/purple2810/zabbix-hw/raw/e145a099105f28ce5740fd80923b20b4e9bd2cd0/Screenshots/bashlog.png" />

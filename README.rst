@@ -77,10 +77,10 @@ sudo apt install -y php-pgsql
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
+**СКРИНШОТ**
 
-.. image:: auto.png
-   :width: 800
-   :alt: Hosts в Zabbiix
+<img width="2558" height="1280" alt="Image" src="https://github.com/user-attachments/assets/f76eb5be-0193-4bba-a4b2-fc5d3ffad715" />
+
 ---
 
 
@@ -133,20 +133,8 @@ sudo systemctl status zabbix-agent
 # 5. Проверка логов агента для подтверждения работы
 sudo tail -n 30 /var/log/zabbix/zabbix_agentd.log
 
-- Лог агента:
+**СКРИНШОТЫ**
 
-.. image:: bashlog.png
-   :width: 800
-   :alt: Лог Zabbix Agent
-
-- WEBZAB (zabbix-server):
-
-.. image:: zabbix-web.png
-   :width: 800
-   :alt: Latest Data zabbix-server
-
-- ZABWEB (host2):
-
-.. image:: zabbix-web.png
-   :width: 800
-   :alt: Latest Data host2
+<img width="2558" height="1280" alt="Image" src="https://github.com/user-attachments/assets/faed87da-796d-41a8-a06c-abadecf68b1d" />
+<img width="2558" height="1280" alt="Image" src="https://github.com/user-attachments/assets/7db3ed9c-2578-4db5-9544-f45766fc1eec" />
+<img width="2558" height="1280" alt="Image" src="https://github.com/user-attachments/assets/091588a8-8162-42c8-9d4e-265a164e0cd4" />

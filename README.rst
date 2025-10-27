@@ -77,13 +77,11 @@ sudo apt install -y php-pgsql
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
-# Скриншот авторизации в админке:
 Скриншот auto
 .. image:: Screenshots/auto.png
    :alt: auto
    :align: center
    :width: 600px
-
 
 ---
 
@@ -137,22 +135,18 @@ sudo systemctl status zabbix-agent
 # 5. Проверка логов агента для подтверждения работы
 sudo tail -n 30 /var/log/zabbix/zabbix_agentd.log
 
-
-# Скриншот zabbix-web2:
 Скриншот интерфейса Zabbix Web
 .. image:: Screenshots/zabbix-web.png
    :alt: zabbix-web
    :align: center
    :width: 600px
 
-# Скриншот zabbix-web:
 Скриншот Latest Data
 .. image:: Screenshots/webzabbix.png
    :alt: webzabbix
    :align: center
    :width: 600px
 
-# Скриншот bashlog-tail:
 Скриншот логов bash
 .. image:: Screenshots/bashlog.png
    :alt: bashlog

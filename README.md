@@ -78,7 +78,13 @@ sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
 # Скриншот авторизации в админке:
-![Авторизация в Zabbix](Screenshots/auto.png)
+Скриншот auto
+.. image:: Screenshots/auto.png
+   :alt: auto
+   :align: center
+   :width: 600px
+
+
 ---
 
 
@@ -131,11 +137,24 @@ sudo systemctl status zabbix-agent
 # 5. Проверка логов агента для подтверждения работы
 sudo tail -n 30 /var/log/zabbix/zabbix_agentd.log
 
-# Скриншот zabbix-web:
-![zabbix-web](Screenshots/webzabbix.png)
 
 # Скриншот zabbix-web2:
-![zabbix-web2](Screenshots/zabbix-web.png)
+Скриншот интерфейса Zabbix Web
+.. image:: Screenshots/zabbix-web.png
+   :alt: zabbix-web
+   :align: center
+   :width: 600px
+
+# Скриншот zabbix-web:
+Скриншот Latest Data
+.. image:: Screenshots/webzabbix.png
+   :alt: webzabbix
+   :align: center
+   :width: 600px
 
 # Скриншот bashlog-tail:
-![bashlog-tail](Screenshots/bashlog.png)
+Скриншот логов bash
+.. image:: Screenshots/bashlog.png
+   :alt: bashlog
+   :align: center
+   :width: 600px

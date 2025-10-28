@@ -109,12 +109,9 @@ sudo tail -n 30 /var/log/zabbix/zabbix_agentd.log
 # ОТВЕТ:
 
 # Скриншот Zabbix Web2:
-![zabbix-web2](screenshots/zabbix-web.png)
-
+![zabbix-web](screenshots/zabbix-web.png)
 # Скриншот Zabbix Web:
 ![webzabbix](screenshots/webzabbix.png)
-
 # Скриншот bashlog-tail:
-![bashlog](screenshots/bashlog.png) 
-
+![bashlog](screenshots/bashlog.png)
 
